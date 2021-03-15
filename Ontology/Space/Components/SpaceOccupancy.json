@@ -84,6 +84,36 @@
       "writable": true,
       "schema": "double",
       "comment": "e.g. people per second"
+    },
+    {
+      "@type": "Property",
+      "name": "monthlyVisitorsCount",
+      "displayName": {
+        "en": "Monthly Visitors Count"
+      },
+      "writable": true,
+      "schema": "double",
+      "comment": "The total number of visitors that have visited the space for the current month"
+    },
+    {
+      "@type": "Property",
+      "name": "monthlyUniqueVisitorsCount",
+      "displayName": {
+        "en": "Monthly Unique Visitors Count"
+      },
+      "writable": true,
+      "schema": "double",
+      "comment": "The total number of unique visitors that have visited the space for the current month"
+    },
+    {
+      "@type": "Property",
+      "name": "monthlySpaceVisitsPercentage",
+      "displayName": {
+        "en": "Monthly Space Visits Percentage"
+      },
+      "writable": true,
+      "schema": "double",
+      "comment": "The total percentage of location visitors that have also visited a subspace in the current month"
     }
   ],
   "@context": "dtmi:dtdl:context;2"

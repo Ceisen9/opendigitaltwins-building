@@ -12,6 +12,17 @@
       },
       "minMultiplicity": 0,
       "name": "includes"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "The region that the portfolio reports to"
+      },
+      "displayName": {
+        "en": "reports to"
+      },
+      "name": "reportsTo",
+      "target": "dtmi:digitaltwins:rec_3_3:core:Region;1"
     }
   ],
   "description": {
